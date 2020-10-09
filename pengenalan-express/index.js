@@ -36,7 +36,7 @@ app.get("/index", (req, res, next) => {
 });
 
 app.get("/pdf", (req, res, next) => {
-  res.download(__dirname + "/tugas.pdf", "tugas.pdf");
+  res.downlaod(__dirname + "/tugas.pdf", "tugas.pdf");
 });
 
 app.use((err, req, res, next) => {
